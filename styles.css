@@ -100,5 +100,121 @@ z-index: 2;
     height: 50px;
     border: none;
 }
+/* spesker */
+.speakersec h1{
+    text-align: center;
+    font-size: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,645px);
+  justify-content: center;
+  align-items: center;
+gap: 20px;
+  
+}
+.bluewtn{
+    color: #2563EB;
+}
+.Sname{
+    font-weight: bolder;
+    font-size: larger;
+}
+.job{
+    color: #575757;
+}
+.speak{
+    border-radius: 10px;
+    border: solid #E5E7EB 2px;
+}
+.intro{
+    position: relative;
+    left: 25px;
+}
+.speak img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
+}
+/* pricing section
+ */
+ .pricing{
+    margin-top: 90px;
+ }
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
+ .unit{
+color: grey; }
+
+.card{
+  border: solid #E5E7EB 2px;
+      width: 25%;
+    border-radius: 10px;
+    /* padding: 10px 10px; */
+    padding: 20px 10px;
+
+}
+.hd{ position: relative;
+    left: 10px;
+}
+.list li {
+    padding-bottom: 10px;
+    /* display: flex; */
+    
+    /* flex-direction: column; */
+}
+.btnnn{
+   width: 80%;
+ 
+ position: relative;
+left: 35px;
+margin-bottom: 10px;
+padding: 10px 10px;
+}
+
+ul li::marker {
+    color: #2563EB; /* Bullet color */
+}
+.Cname{
+    color: #888888;
+}
+.price{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.head{
+    text-align: center;
+}
+.head p{
+    color: grey;
+}
+.ul2 li{
+    color: white;
+    font-size: 16px;
+}
+.btn1{
+    color: #2563EB;
+border: #2563EB solid 1px;
+border-radius: 5px;
+background-color: white;}
+.btn2{
+background-color: #2563EB;
+color: white;
+border-radius: 5px;
+border: none;
+}
+.two{
+    background-color: #0D1B2A;
+    color: white;
+}
+.Cname2{
+    color: #1D4ED8;
+}
+.btn3{
+    background-color: white;
+    border-radius: 5px;
+}
