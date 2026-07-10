@@ -218,3 +218,41 @@ border: none;
     background-color: white;
     border-radius: 5px;
 }
+footer{
+    background-color: #0D1B2A;
+    color: white;
+}
+.leftfoot img{
+    box-shadow: 0 0 15px 5px #21218c;
+    /* display: flex;
+    gap: 50px; */
+    height: 33px;
+    width: 33px;
+}
+
+.connect{
+   width:100%;
+    display: flex;
+justify-content: space-around;
+} 
+footer hr{
+border: none;
+    background-color: #aba9a9;
+    height: 2px;
+    width: 90%;
+}
+.cpyrgt{
+    text-align: center;
+    color:#c0bfbf;
+}
+.footmid a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color:#aba9a9;
+    top: 30px;
+    position: relative;
+}
+.footmid{
+    padding-left: 60px;
+}
+
