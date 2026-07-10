@@ -1,0 +1,62 @@
+body{
+
+font-family: "Inter", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.leftnav{
+    display: flex;
+    gap: 7px
+    ;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.year{
+    position: relative;
+    bottom: 14px;
+}
+.name{
+font-size: 18px;   
+ font-weight: bolder;
+   
+}
+.icon{
+height: 25px;
+width: 25px;
+position: relative;
+top: 27px;
+}
+
+.middlenav a{
+text-decoration: none;
+color: grey;
+padding: 13px 0px;
+font-size: smaller;
+}
+.middlenav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    ;
+}
+.rightnav{
+    position: relative;
+    top: 10px;
+
+}
+.rightnav a{
+    border: solid 2px black;
+    padding: 10px 30px;
+    border-radius: 9px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+   font-size: smaller;
+   font-weight: bold;
+}
