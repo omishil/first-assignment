@@ -66,14 +66,14 @@ font-size: smaller;
     height: 100vh;
     width: 100vw;
 
-    background: url(../assets/banner.jpg);
+    background: url(./assets/banner.jpg);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
     color: white;
-
+z-index: 2;
 }
 .topsidebanner h1{
     font-size: 56px;
